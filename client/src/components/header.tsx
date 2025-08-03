@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Wrench, Phone } from "lucide-react";
+import logoPath from "@assets/image_1754187194921.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +48,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
             <img 
-              src="@assets/image_1754187194921.png" 
+              src={logoPath} 
               alt="A&C Taller Automotriz Logo" 
               className="w-12 h-12 object-contain"
             />
@@ -80,7 +81,7 @@ export default function Header() {
                 <div className="flex flex-col space-y-6 mt-8">
                   <div className="flex items-center space-x-3 mb-8">
                     <img 
-                      src="@assets/image_1754187194921.png" 
+                      src={logoPath} 
                       alt="A&C Taller Automotriz Logo" 
                       className="w-10 h-10 object-contain"
                     />

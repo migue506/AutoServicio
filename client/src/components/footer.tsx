@@ -1,4 +1,5 @@
 import { Wrench, Phone, MapPin, Clock, Instagram } from "lucide-react";
+import logoPath from "@assets/image_1754187194921.png";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -13,7 +14,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="@assets/image_1754187194921.png" 
+                src={logoPath} 
                 alt="A&C Taller Automotriz Logo" 
                 className="w-8 h-8 object-contain"
               />
