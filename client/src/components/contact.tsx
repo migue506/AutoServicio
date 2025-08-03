@@ -66,7 +66,7 @@ export default function Contact() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <h2 className="text-4xl font-bold mb-6">Contáctanos</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 automotive-title">Contáctanos</h2>
             <p className="text-xl mb-8 text-gray-200">
               Estamos ubicados en el corazón de Medellín, listos para atender tu vehículo con la mejor calidad y servicio.
             </p>
@@ -77,7 +77,7 @@ export default function Contact() {
                   <MapPin className="text-white h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Dirección</h3>
+                  <h3 className="text-xl font-semibold mb-2 automotive-subtitle">Dirección</h3>
                   <p className="text-gray-300">Carrera 52 #12 Sur-58<br />Medellín, Antioquia</p>
                 </div>
               </div>
@@ -87,7 +87,7 @@ export default function Contact() {
                   <Phone className="text-white h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Teléfono</h3>
+                  <h3 className="text-xl font-semibold mb-2 automotive-subtitle">Teléfono</h3>
                   <p className="text-gray-300">312 647 0525</p>
                 </div>
               </div>
@@ -97,7 +97,7 @@ export default function Contact() {
                   <Clock className="text-white h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Horarios</h3>
+                  <h3 className="text-xl font-semibold mb-2 automotive-subtitle">Horarios</h3>
                   <p className="text-gray-300">
                     Lunes a Viernes: 7:00 AM - 6:00 PM<br />
                     Sábados: 8:00 AM - 4:00 PM<br />
@@ -111,7 +111,7 @@ export default function Contact() {
                   <Instagram className="text-white h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Síguenos</h3>
+                  <h3 className="text-xl font-semibold mb-2 automotive-subtitle">Síguenos</h3>
                   <a 
                     href="https://www.instagram.com/taller_automotrizayc/" 
                     target="_blank" 

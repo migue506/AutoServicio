@@ -53,7 +53,7 @@ export default function Header() {
               className="w-12 h-12 object-contain"
             />
             <div>
-              <h1 className="text-2xl font-bold text-automotive-primary">A&C Taller Automotriz</h1>
+              <h1 className="text-2xl font-bold text-automotive-primary automotive-title">A&C Taller Automotriz</h1>
               <p className="text-sm text-gray-600">Servicio Profesional</p>
             </div>
           </div>

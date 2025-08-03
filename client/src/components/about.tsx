@@ -6,7 +6,7 @@ export default function About() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-6">¿Por qué elegir A&C Taller Automotriz?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 automotive-title">¿Por qué elegir A&C Taller Automotriz?</h2>
             <p className="text-xl mb-8 text-gray-200">
               Somos una empresa especializada en mantenimiento y reparación de vehículos automotores, 
               comprometidos con la excelencia y la satisfacción de nuestros clientes.
@@ -18,7 +18,7 @@ export default function About() {
                   <Badge className="text-white h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Técnicos Certificados</h3>
+                  <h3 className="text-xl font-semibold mb-2 automotive-subtitle">Técnicos Certificados</h3>
                   <p className="text-gray-300">Personal altamente capacitado con experiencia en todas las marcas de vehículos.</p>
                 </div>
               </div>
@@ -28,7 +28,7 @@ export default function About() {
                   <Wrench className="text-white h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Equipos Especializados</h3>
+                  <h3 className="text-xl font-semibold mb-2 automotive-subtitle">Equipos Especializados</h3>
                   <p className="text-gray-300">Tecnología de punta para diagnósticos precisos y reparaciones de calidad.</p>
                 </div>
               </div>
@@ -38,7 +38,7 @@ export default function About() {
                   <Shield className="text-white h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Garantía Total</h3>
+                  <h3 className="text-xl font-semibold mb-2 automotive-subtitle">Garantía Total</h3>
                   <p className="text-gray-300">Cobertura completa en mano de obra y repuestos utilizados.</p>
                 </div>
               </div>

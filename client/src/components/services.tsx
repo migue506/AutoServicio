@@ -76,20 +76,20 @@ export default function Services() {
     <section id="servicios" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-automotive-primary mb-4">Nuestros Servicios</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-automotive-primary mb-6 automotive-title">Nuestros Servicios</h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Ofrecemos servicios integrales de mantenimiento y reparación automotriz con tecnología de punta y técnicos certificados
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="automotive-neutral border border-gray-200 hover:shadow-xl transition-shadow">
+            <Card key={index} className="automotive-light border border-gray-200 hover:shadow-automotive transition-all duration-300 hover:-translate-y-1">
               <CardContent className="p-6">
-                <div className="automotive-secondary text-white p-4 rounded-lg w-16 h-16 flex items-center justify-center mb-4">
+                <div className="automotive-secondary text-white p-4 rounded-xl w-16 h-16 flex items-center justify-center mb-4 shadow-lg">
                   {service.icon}
                 </div>
-                <h3 className="text-xl font-bold text-automotive-primary mb-3">{service.title}</h3>
+                <h3 className="text-xl font-bold text-automotive-primary mb-3 automotive-subtitle">{service.title}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 <ul className="text-sm text-gray-500 space-y-1">
                   {service.features.map((feature, featureIndex) => (

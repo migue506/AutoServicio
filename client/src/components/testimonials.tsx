@@ -24,8 +24,8 @@ export default function Testimonials() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-automotive-primary mb-4">Lo que dicen nuestros clientes</h2>
-          <p className="text-xl text-gray-600">La satisfacción de nuestros clientes es nuestra mejor carta de presentación</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-automotive-primary mb-6 automotive-title">Lo que dicen nuestros clientes</h2>
+          <p className="text-xl text-gray-600 leading-relaxed">La satisfacción de nuestros clientes es nuestra mejor carta de presentación</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
