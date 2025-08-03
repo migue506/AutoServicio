@@ -46,9 +46,11 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
-            <div className="automotive-primary text-white p-3 rounded-lg">
-              <Wrench className="text-xl" />
-            </div>
+            <img 
+              src="@assets/image_1754187194921.png" 
+              alt="A&C Taller Automotriz Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <div>
               <h1 className="text-2xl font-bold text-automotive-primary">A&C Taller Automotriz</h1>
               <p className="text-sm text-gray-600">Servicio Profesional</p>
@@ -77,9 +79,11 @@ export default function Header() {
               <SheetContent side="right" className="w-[300px]">
                 <div className="flex flex-col space-y-6 mt-8">
                   <div className="flex items-center space-x-3 mb-8">
-                    <div className="automotive-primary text-white p-2 rounded-lg">
-                      <Wrench className="h-5 w-5" />
-                    </div>
+                    <img 
+                      src="@assets/image_1754187194921.png" 
+                      alt="A&C Taller Automotriz Logo" 
+                      className="w-10 h-10 object-contain"
+                    />
                     <div>
                       <h2 className="font-bold text-automotive-primary">A&C Taller</h2>
                       <p className="text-sm text-gray-600">Automotriz</p>

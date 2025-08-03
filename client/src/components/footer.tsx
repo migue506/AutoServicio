@@ -12,9 +12,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="automotive-secondary text-white p-2 rounded-lg">
-                <Wrench className="h-5 w-5" />
-              </div>
+              <img 
+                src="@assets/image_1754187194921.png" 
+                alt="A&C Taller Automotriz Logo" 
+                className="w-8 h-8 object-contain"
+              />
               <h3 className="text-xl font-bold">A&C Taller Automotriz</h3>
             </div>
             <p className="text-gray-300 mb-4">
